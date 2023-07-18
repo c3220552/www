@@ -9,22 +9,28 @@ body {
 }
 
 .header_navilist {
-    display: flex;
+    margin: 16px 28px;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 }
 .header_navilist li {
     margin: 16px 28px;
     list-style: none;
+    float: left;
+}
+
+.header_navilist .float_none {
+    float: none;
 }
 
 .header_mainvisual {
-    margin: 40px;
+    margin: 40px 40px 40px 60px;
 }
+
 .header_mainvisual img {
     width: 100%;
     border: 10px solid #ddd;
-    box-sizing: border-box;
+    margin-left: -20px;
 }
 
 main {
@@ -38,32 +44,55 @@ main {
 }
 
 .main_content_body {
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
 }
 
 .main_goodpoints section {
     width: 31%;
+    float: left;
 }
 
 .main_goodpoints section img {
-    width: 1--%;
+    width: 100%;
+}
+
+.main_goodpoints section {
+    width: 31%;
+    float: left;
+}
+
+.main_goodpoints section img {
+    width: 100%;
+}
+
+.main_goodpoints_02 {
+    margin: 0 3.5%;
+}
+
+.clear_both {
+    clear: both;
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
     margin: 40px 40px 0;
 }
 
 .news {
+    float: left;
     width: 65.5%;
+    margin-right: 3.5%;
 }
 
-.news_title{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+.news h2{
+    margin: 0;
+}
+
+.news_older{
+    float: right;
+    margin-top: 12px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #777;
 }
 
 .news_list {
@@ -82,6 +111,7 @@ footer {
 }
 
 .banner {
+    float: left;
     width: 31%;
 }
 

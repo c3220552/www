@@ -6,6 +6,7 @@ body {
 
 .header_logo {
     text-align: center;
+    width: auto;
 }
 
 .header_navlist {

@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-.header_navilist {
+.header_navlist {
     margin: 16px 28px;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
@@ -19,7 +19,7 @@ body {
     float: left;
 }
 
-.header_navilist .float_none {
+.header_navlist .float_none {
     float: none;
 }
 

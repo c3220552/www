@@ -9,13 +9,11 @@ body {
 }
 
 .header_navlist {
-    display: inline-block;
     margin: 16px 28px;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 }
 .header_navilist li {
-    display: inline-block;
     margin: 16px 28px;
     list-style: none;
     float: left;
